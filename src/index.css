@@ -25,6 +25,10 @@ header ul{
   list-style-type: none;
   gap: 25px;
 }
+header ul>li:nth-of-type(1){
+  display: none;
+}
+
 header ul a{
   text-decoration: none;
   color: black;
@@ -69,6 +73,10 @@ header span:hover{
     padding: 40px 30px;
     color: white;
     font-size: 20px;
+  }
+  header ul>li:nth-of-type(1){
+    display: block;
+    text-align: right;
   }
   header ul a{
     text-decoration: none;

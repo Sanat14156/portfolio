@@ -18,7 +18,7 @@ const Projects = () => {
         <div>
         <h3>3. Spotify-Clone</h3>
         <p>UI of spotify is created by using react class component approach. This UI is very much similar to the original Spotify website.</p>
-        <a href=''>project link</a>
+        <a href='https://spotify-clone-using-reactjs.netlify.app/' target='_blank'>project link</a>
         </div>
        <div>
        <h3>4. Counter</h3>
@@ -28,7 +28,7 @@ const Projects = () => {
        <div>
        <h3>5. My Portfolio</h3>
         <p>My Portfolio is also created by using react js. You cen get all the details about me in this portfolio.</p>
-        <a href=''>project link</a>
+        <a href='https://sanat-portfolio.netlify.app/'>project link</a>
        </div>
         </p>
     </div>
