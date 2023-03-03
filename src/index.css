@@ -87,10 +87,11 @@ header span:hover{
 .home{
   display: flex;
   gap: 5vw;
-  padding: 5% 5%;
-  text-align: center;
+  padding: 10% 5%;
+  /* text-align: center; */
   /* background-color: aqua; */
   align-items: center;
+  justify-content: center;
 }
 .home p{
   font-size: 20px;

@@ -3,7 +3,7 @@ import img1 from './sanat.jpg'
 
 const Home = () => {
   return (
-    <div className='home'><a id='home'></a>
+    <div className='home' id='home'>
         <p>
             Hello, I am <span>Sanat Kumar</span>. 
             <br></br> 
