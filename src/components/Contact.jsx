@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
         <h1>CONTACT</h1>
     <div>
-    <p><h1>Github</h1>
+    <p><h2>Github</h2>
         <a href='https://github.com/Sanat14156'>github-link</a></p>
 
         <p><h1>📞</h1>
