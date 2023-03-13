@@ -18,7 +18,7 @@ const Projects = () => {
         <div>
         <h3>3. Spotify-Clone</h3>
         <p>UI of spotify is created by using react class component approach. This UI is very much similar to the original Spotify website.</p>
-        <a href='https://spotify-clone-using-reactjs.netlify.app/'>project link</a>
+        <a href='https://spotify-clone-using-reactjs.netlify.app/' target='_blank' rel="noopener noreferrer">project link</a>
         </div>
        <div>
        <h3>4. Counter</h3>

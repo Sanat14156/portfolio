@@ -14,17 +14,18 @@ const About = () => (
         <p><span>Duration:</span> 6 months</p>
       </article>
       <article className='skills'>
-        <div>HTML
+        <div><div><span>HTML</span><span>95%</span></div>
+          <div><div></div></div>
+          </div>
+        <div><div><span>CSS</span><span>88%</span></div>
           <div><div></div></div></div>
-        <div>CSS
+        <div><div><span>JavaScript</span><span>90%</span></div>
           <div><div></div></div></div>
-        <div>JavaScript
+        <div><div><span>React Js</span><span>85%</span></div>
           <div><div></div></div></div>
-        <div>JAVA
+        <div><div><span>Java</span><span>90%</span></div>
           <div><div></div></div></div>
-        <div>J2EE
-          <div><div></div></div></div>
-        <div>SQL
+        <div><div><span>SQL</span><span>80%</span></div>
           <div><div></div></div></div>
       </article>
     </section>

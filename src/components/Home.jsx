@@ -13,7 +13,7 @@ const Home = () => {
             <span>Skills:</span> HTML | CSS | JAVASCRIPT | REACT JS | BOOTSTRAP | JAVA | HIBERNATE | SPRINGBOOT | SQL.
             <br></br>
             <br></br>
-            <a href='#contact'>HIRE ME</a>
+            <a href='https://drive.google.com/file/d/1z_Q1lGR0v2TYzbq5iWDyLaw10DlzGnbD/view?usp=share_link'>Get My Resume</a>
         </p>
         <img src={img1} alt={img1}></img>
     </div>
