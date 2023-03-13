@@ -9,10 +9,10 @@ const Contact = () => {
         <a href='https://github.com/Sanat14156'>github-link</a></p>
 
         <p><h1>📞</h1>
-        <a href='tel:9650774852'>+91-9650774852</a></p>
+        <a href='tel:9650774852'>Call Me</a></p>
     
         <p><h1>📧</h1>
-        <a href='mailto:sanat14156yadav@gmail.com'>sanat14156yadav@gmail.com</a></p>
+        <a href='mailto:sanat14156yadav@gmail.com'>Email Me</a></p>
     </div>
         {/* <p>=====Always Available At your Service=====</p> */}
     </div>
