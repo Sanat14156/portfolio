@@ -60,10 +60,11 @@ header span:hover{
     display: none;
     background-color: rgba(0, 0, 255, 0.68);
     height: 100vh;
-    width: 50vw;
+    width: 60vw;
     position: absolute;
     top: 0px;
     left: 0px;
+    z-index: 2;
   }
   header ul{
     display: flex;
@@ -137,8 +138,7 @@ header span:hover{
   .home{
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 0% 0%; */
-    
+  
   }
   .home img{
     transform: scale(1);
@@ -154,13 +154,17 @@ header span:hover{
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  padding: 30px 30px;
+  padding: 20px 20px;
+  /* background-color: aqua; */
+  width: 100%;
   
 }
 .project>p{
   text-align: left;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  /* background-color: beige; */
   gap: 20px;
   
 }
@@ -168,11 +172,26 @@ header span:hover{
   font-size: 20px;
   line-height: 30px;
   background-color: rgb(240, 237, 237);
-  padding: 10px 30px;
-  width: 80vw;
+  padding: 10px 20px;
+  width: 85%;
 }
 .project>p div>a{
   color: blue;
+}
+@media screen and (max-width:700px){
+  .project{
+    width: 100vw;
+  }
+  .project>p div{
+    font-size: 20px;
+    line-height: 30px;
+    background-color: rgb(240, 237, 237);
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .project>p div>a{
+    color: blue;
+  }
 }
 
 .about{
@@ -252,6 +271,7 @@ header span:hover{
   width: 80%;
 }
 
+
 @media screen and (max-width:700px){
   .about{
     gap: 10px;
@@ -277,7 +297,7 @@ header span:hover{
 }
 
 .education{
-  width: 83vw;
+  width: 82.5vw;
   line-height: 30px;
   padding: 20px 20px;
 }
@@ -286,6 +306,15 @@ header span:hover{
   background-color: rgb(252, 236, 215);
   padding: 10px 10px;
   border-radius: 10px;
+}
+@media screen and (max-width:700px){
+  .education{
+    width: 100vw;
+    
+  }
+  .education>div{
+    padding: 20px 20px;
+  }
 }
 
 .contact{

@@ -6,7 +6,7 @@ const Contact = () => {
         <h1>CONTACT</h1>
     <div>
     <p><h2>Github</h2>
-        <a href='https://github.com/Sanat14156'>github-link</a></p>
+        <a href='https://github.com/Sanat14156'>Github-link</a></p>
 
         <p><h1>📞</h1>
         <a href='tel:9650774852'>Call Me</a></p>
